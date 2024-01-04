@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="hero">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="vid.mp4" type="video/mp4">
+    </video>
+    <div id="calculator">
+        <input type="text" readonly id="input-text">
+        <div class="button-class">
+            <button class="btn1"onclick="finalValue=''; document.querySelector('#input-text').value=finalValue;">AC</button>
+            <button class="btn1"onclick="finalValue='-'+finalValue; document.querySelector('#input-text').value=finalValue;">+/-</button>
+            <button class="btn1" onclick="finalValue+='%'; document.querySelector('#input-text').value=finalValue;">%</button>
+            <button class="btn2" onclick="finalValue+='/'; document.querySelector('#input-text').value=finalValue;">÷</button>
+            <button class="btn3"onclick="finalValue+='7'; document.querySelector('#input-text').value=finalValue;">7</button>
+            <button class="btn3"onclick="finalValue+='8'; document.querySelector('#input-text').value=finalValue;">8</button>
+            <button class="btn3"onclick="finalValue+='9'; document.querySelector('#input-text').value=finalValue;">9</button>
+            <button class="btn2"onclick="finalValue+='*'; document.querySelector('#input-text').value=finalValue;">x</button>
+            <button class="btn3"onclick="finalValue+='4'; document.querySelector('#input-text').value=finalValue;">4</button>
+            <button class="btn3"onclick="finalValue+='5'; document.querySelector('#input-text').value=finalValue;">5</button>
+            <button class="btn3"onclick="finalValue+='6'; document.querySelector('#input-text').value=finalValue;">6</button>
+            <button class="btn2"onclick="finalValue+='-'; document.querySelector('#input-text').value=finalValue;">-</button>
+            <button class="btn3"onclick="finalValue+='1'; document.querySelector('#input-text').value=finalValue;">1</button>
+            <button class="btn3"onclick="finalValue+='2'; document.querySelector('#input-text').value=finalValue;">2</button>
+            <button class="btn3"onclick="finalValue+='3'; document.querySelector('#input-text').value=finalValue;">3</button>
+            <button class="btn2"onclick="finalValue+='+'; document.querySelector('#input-text').value=finalValue;">+</button>
+            <button class="btn3-0"onclick="finalValue+='0'; document.querySelector('#input-text').value=finalValue;">0</button>
+            <button class="btn3"onclick="finalValue+='.'; document.querySelector('#input-text').value=finalValue;">.</button>
+            <button class="btn2" onclick="let result=eval(finalValue); document.querySelector('#input-text').value=result;">=</button>
+        </div>
+    </div>
+</div>
+    
+
+    <script>
+        let finalValue=' ';
+        document.querySelector('#input-text').value=finalValue;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+#hero{
+    width: 100%;
+    height: 100%;
+}
+
+#calculator{
+    width: 500px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border: none;
+    background-color: transparent;
+    position:relative; top:10px; left: 30%;
+    border-radius: 100px;
+}
+
+#input-text{
+    margin: 10px;
+    border: none;
+    width: 80%;
+    color: #D4D4D2;
+    height: 80px;
+    font-size: 4em;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    border-radius: 35px;
+}
+
+.button-class{
+    /*display: flex;*/
+    width: 350px;
+    justify-content: center;
+    margin: 10px;
+    padding-left: 85px;
+    
+}
+
+.btn1{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin: 3px;
+    background-color: #D4D4D2;
+}
+
+.btn2{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    margin: 3px;
+    background-color: #FF9500;
+}
+
+.btn3{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    margin: 3px;
+    background-color: #505050;
+}
+
+.btn3-0{
+    height: 70px;
+    width: 70px;
+    padding-right: 125px;
+    padding-left: 25px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    margin: 3px;
+    background-color: #505050;
+}
+
+.back-video{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
