@@ -1,6 +1,6 @@
 # Web Calculator
 
-A simple we Calculator mimicing the iOS version using HTML, CSS, JS.
+A simple web Calculator mimicing the iOS version using HTML, CSS, JS.
 
 
 ## Screenshots
